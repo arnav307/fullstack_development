@@ -1,0 +1,94 @@
+/* Basic Page Style */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+
+    color:black;
+    background:url("https://www.shutterstock.com/image-vector/grey-silver-abstract-polygonal-background-260nw-1569574966.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color:black;
+}
+
+
+#add-movie-form {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+
+    /* Simple feature */
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+#add-movie-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#add-movie-form input {
+    width: 400px;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #999;
+    text-align: center;
+}
+
+/* Button Styling */
+#add-movie-form button {
+    
+    border: none;
+    cursor: pointer;
+    width: 140px;
+    margin: 12px auto;
+    display: block;
+    border-radius: 25px;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+#add-movie-form button:hover{
+    background:yellow;
+}
+
+#add-movie-form button:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    font-size: 45px;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+}
+
+/* Action Buttons */
+.edit-btn {
+    background: lightgreen;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+.delete-btn {
+    background: red;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+/* Movie Item Card */
+.movie-item {
+    background: white;
+    padding: 12px;
+    border-radius: 12px;
+    margin: 10px 0;
+  ;
+}
